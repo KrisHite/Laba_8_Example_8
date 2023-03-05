@@ -35,6 +35,7 @@ public class Main {
             readAllByByte(rArray);
             inArray.close();
             rArray.close();
+            //Символьный массив^
 
         }catch(IOException e){
             System.out.printf("Ошибкка " + e);
